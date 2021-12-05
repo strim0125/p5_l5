@@ -1,6 +1,6 @@
 package ru.geekbrains.common.part2_lesson4;
 
-public class Employee {
+class Employe {
         private String fio;
         private String post;
         private String email;
@@ -8,7 +8,7 @@ public class Employee {
         private int salary;
         private int age;
 
-        public void Emloyee(String fio, String post, String email, int phone, int salary, int age) {
+    public Employe (String fio, String post, String email, int phone, int salary, int age) {
             this.fio = fio;
             this.post = post;
             this.email = email;
