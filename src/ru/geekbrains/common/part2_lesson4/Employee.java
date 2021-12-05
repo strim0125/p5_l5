@@ -18,8 +18,8 @@ class Employe {
         }
 
         public void printEmp(){
-            System.out.printf("fio " + fio + "post " + post + "email " + email +
-                    "salary " + salary + "age =" + age);
+            System.out.printf("fio = " + fio + " post = " + post + " email = " + email +
+                    " salary = " + salary + "age = " + age);
         }
 
     public int getAge() {
